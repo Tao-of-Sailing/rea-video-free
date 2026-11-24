@@ -10,6 +10,7 @@ examples/hypit_minimal/assets/
 examples/hypit_minimal/hypit.runtime.json
 examples/hypit_minimal/output.mp4
 *.mp4
+!docs/nasa_gw_compare.mp4
 *.wav
 *.m4a
 *.log

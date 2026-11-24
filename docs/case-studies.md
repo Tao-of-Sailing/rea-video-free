@@ -8,6 +8,8 @@
 
 ![NASA SVS 20367 8-timestamp comparison grid](nasa_gw_compare_grid.jpg)
 
+**Full 12s Side-by-Side Comparison Video:** [Compact `1600×450` MP4 (in-repo)](nasa_gw_compare.mp4) · [Full `2560×720` MP4 (Release v2.0.0)](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/compare_nasa_gw_side_by_side.mp4)
+
 ### Source Attribution & Window Specification
 
 - **Reference Work:** *Gravitational Wave* — [NASA Scientific Visualization Studio ID 20367](https://svs.gsfc.nasa.gov/20367)
@@ -54,6 +56,8 @@ All builds ran 100% locally via `html.local` + `media.local` (`3/3 Local request
 ## Case 2 (Mode B · 100% Original Explainer): *Fourier Epicycles & Time–Frequency Duality*
 
 ![Mode B original editorial explainer 8-timestamp storyboard](editorial_original_storyboard.jpg)
+
+**Full 12s Output MP4 (with audio):** [Download / Watch `1280×720` MP4 (Release v2.0.0)](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/output_editorial.mp4)
 
 ### Design & Specifications
 

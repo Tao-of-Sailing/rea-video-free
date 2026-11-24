@@ -17,11 +17,13 @@ An **Agent Skill** that guides AI coding assistants to inspect local reference v
 
 *Left: Excerpt from [NASA SVS 20367 — Gravitational Wave](https://svs.gsfc.nasa.gov/20367) (Public Domain · Credit: NASA's Goddard Space Flight Center Conceptual Image Lab; NASA does not endorse this project). Right: Pure-local recreation via `rea-video` analysis + WebGL2 spiral & warped spacetime grid rendered in Hypit (`0` cloud requests).*
 
+> **Watch the full 12s side-by-side MP4:** [Compact in-repo preview (`1600×450`)](docs/nasa_gw_compare.mp4) · [Full-resolution `2560×720` MP4 (Release v2.0.0)](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/compare_nasa_gw_side_by_side.mp4)
+
 ### Showcase 2 (Mode B · 100% Original Editorial Explainer): Fourier Epicycles & Time–Frequency Duality
 
 ![Original editorial showcase preview of Fourier epicycles and harmonic spectrum](docs/editorial_original_showcase.gif)
 
-*100% original 12-second explainer authored with this skill (MIT-licensed with this repository): archival paper-grain title motion graphics (`Hypit`) → `mpmath`-verified 5-harmonic rotating epicycles (`ManimCE[typst]`) → split time–frequency spectrum card with pre-decoded `MathTypst` PNG and outlined bilingual subtitles.*
+*100% original 12-second explainer authored with this skill (MIT-licensed with this repository): archival paper-grain title motion graphics (`Hypit`) → `mpmath`-verified 5-harmonic rotating epicycles (`ManimCE[typst]`) → split time–frequency spectrum card with pre-decoded `MathTypst` PNG and outlined bilingual subtitles. · [Watch full 12s MP4 with audio (Release v2.0.0)](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/output_editorial.mp4)*
 
 ---
 
@@ -206,6 +208,7 @@ rea-video-free/
 ├── docs/
 │   ├── case-studies.md / .zh-CN.md       # Benchmark specs, exact scores, and limitations
 │   ├── hero_nasa_gw_compare.gif          # Showcase 1 (Mode A) animated comparison
+│   ├── nasa_gw_compare.mp4               # Showcase 1 full 12s side-by-side MP4 (1600×450)
 │   ├── nasa_gw_compare_grid.jpg          # Showcase 1 8-timestamp QA grid
 │   ├── editorial_original_showcase.gif   # Showcase 2 (Mode B) animated explainer preview
 │   └── editorial_original_storyboard.jpg # Showcase 2 8-timestamp storyboard

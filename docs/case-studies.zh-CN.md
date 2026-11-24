@@ -8,6 +8,8 @@
 
 ![NASA SVS 20367 8 时刻对比网格图](nasa_gw_compare_grid.jpg)
 
+**完整 12 秒并排对比视频：** [仓库内轻量版 `1600×450` MP4](nasa_gw_compare.mp4) · [原画质 `2560×720` MP4（Release v2.0.0）](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/compare_nasa_gw_side_by_side.mp4)
+
 ### 参考出处与时间窗口口径
 
 - **参考作品：** *Gravitational Wave* — [NASA 科学可视化工作室（SVS）编号 20367](https://svs.gsfc.nasa.gov/20367)
@@ -54,6 +56,8 @@
 ## 案例二（模式 B · 100% 原创杂志风科普）：《傅里叶本轮与时频对偶》
 
 ![模式 B 原创科普 8 时刻故事板](editorial_original_storyboard.jpg)
+
+**完整 12 秒原创成片（含和弦音频）：** [查看/下载 `1280×720` MP4（Release v2.0.0）](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/output_editorial.mp4)
 
 ### 创作架构与规格
 

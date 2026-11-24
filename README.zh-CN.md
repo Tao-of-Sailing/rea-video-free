@@ -17,11 +17,13 @@
 
 *左：[NASA SVS 20367 — Gravitational Wave](https://svs.gsfc.nasa.gov/20367) 原片截取（美国联邦政府公有领域 · Credit: NASA's Goddard Space Flight Center Conceptual Image Lab；NASA 不对本项目提供背书）。右：经 `rea-video` 离线分析后，通过 WebGL2 螺旋波场与扭曲时空网格在纯本地 Hypit 中完整复刻（`0` 次云端请求）。*
 
+> **观看完整 12 秒左右并排对比 MP4：** [仓库内轻量版（`1600×450`）](docs/nasa_gw_compare.mp4) · [原画质 `2560×720` MP4（Release v2.0.0）](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/compare_nasa_gw_side_by_side.mp4)
+
 ### 案例二（模式 B · 100% 原创杂志风科普）：傅里叶本轮与时频对偶
 
 ![傅里叶本轮与离散频谱原创科普展示](docs/editorial_original_showcase.gif)
 
-*基于本 Skill 从零原创的 12 秒科普短片（随本仓库以 MIT 协议开源）：开场纸纹动效与旋转本轮图标（`Hypit`）→ 经 `mpmath` 校验的五阶奇次谐波圆周叠加动画（`ManimCE[typst]`）→ 时域波形与 `1/n` 离散频谱双栏对照（内嵌 `MathTypst` 透明公式图 + 描边双语字幕）。*
+*基于本 Skill 从零原创的 12 秒科普短片（随本仓库以 MIT 协议开源）：开场纸纹动效与旋转本轮图标（`Hypit`）→ 经 `mpmath` 校验的五阶奇次谐波圆周叠加动画（`ManimCE[typst]`）→ 时域波形与 `1/n` 离散频谱双栏对照（内嵌 `MathTypst` 透明公式图 + 描边双语字幕）。· [观看带音频完整 12 秒成片（Release v2.0.0）](https://github.com/Tao-of-Sailing/rea-video-free/releases/download/v2.0.0/output_editorial.mp4)*
 
 ---
 
@@ -206,6 +208,7 @@ rea-video-free/
 ├── docs/
 │   ├── case-studies.md / .zh-CN.md       # 案例指标、耗时与局限性说明（中英）
 │   ├── hero_nasa_gw_compare.gif          # 案例一（模式 A）首屏并排对比动图
+│   ├── nasa_gw_compare.mp4               # 案例一完整 12 秒并排对比 MP4（1600×450）
 │   ├── nasa_gw_compare_grid.jpg          # 案例一 8 时刻对比网格图
 │   ├── editorial_original_showcase.gif   # 案例二（模式 B）原创科普预览动图
 │   └── editorial_original_storyboard.jpg # 案例二 8 时刻关键帧故事板

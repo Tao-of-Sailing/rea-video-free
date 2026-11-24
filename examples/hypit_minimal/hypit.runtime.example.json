@@ -1,0 +1,25 @@
+{
+  "format": "hypit.runtime-local@1",
+  "dataRoot": ".hypit/runtimes/local",
+  "credentials": {},
+  "endpoints": {
+    "media.local": {
+      "use": "@hypit/media-local",
+      "config": {
+        "defaultConcurrency": 2
+      }
+    },
+    "html.local": {
+      "use": "@hypit/provider-html-local",
+      "config": {
+        "workers": 4,
+        "quality": "standard",
+        "defaultConcurrency": 1,
+        "chromePath": "<RUN node init_runtime.mjs OR SET PATH TO CHROME/CHROMIUM>",
+        "ffmpegPath": "<RUN node init_runtime.mjs OR SET PATH TO FFMPEG>",
+        "ffprobePath": "<RUN node init_runtime.mjs OR SET PATH TO FFPROBE>"
+      }
+    }
+  },
+  "bindings": {}
+}

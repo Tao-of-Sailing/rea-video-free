@@ -1,0 +1,16 @@
+<?svml using="@hypit/recipe@1"?>
+<sheet version="1">
+  film.hd {
+    background: #182442;
+  }
+
+  course.caption {
+    zh-color: #ffffff;
+    en-color: #f6f7fb;
+    zh-size: 30px;
+    en-size: 24px;
+    bottom-offset: 56px;
+    font-zh: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+    font-en: "Avenir Next", "Segoe UI", "Inter", "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+  }
+</sheet>

@@ -1,0 +1,49 @@
+<?svml using="@hypit/markup@1"?>
+<svml>
+  <import as="time" from="@hypit/timeline-author@1"/>
+  <import as="space" from="@hypit/spatial@1"/>
+  <import as="asset" from="@hypit/media@1"/>
+  <import as="mediaop" from="@hypit/media-operations@1"/>
+  <import as="visual" from="@hypit/visual-track@1"/>
+  <import as="audio" from="@hypit/audio-track@1"/>
+  <import as="cap" from="minimal-captions@1"/>
+  <import as="film" from="@hypit/film@1"/>
+  <import as="html" from="@hypit/html-video@1"/>
+  <import as="recipes" source="../recipes/course.svs"/>
+
+  <time:Clock id="clock" frame-rate="25"/>
+  <time:Timeline id="program" clock={clock} end="5s">
+    <time:Window id="math-win" from="start" for="5s"/>
+  </time:Timeline>
+
+  <space:Canvas id="hd" width="1280" height="720"/>
+  <space:Frame id="full-frame" within={hd.bounds} left="0%" top="0%" right="100%" bottom="100%"/>
+
+  <asset:Video id="manim-raw" src="../assets/manim_clip.mp4"/>
+  <mediaop:Normalize id="manim-norm" source={manim-raw}
+    video="primary-moving" audio="none" span-authority="video" clock={clock}/>
+
+  <asset:Audio id="voice-raw" src="../assets/voice.wav"/>
+  <mediaop:Normalize id="voice-norm" source={voice-raw}
+    video="none" audio="default" span-authority="audio" clock={clock}/>
+
+  <visual:Track id="math" timeline={program.timeline}>
+    <visual:Clip id="math-clip" media={manim-norm.media}
+      during={program.math-win} frame={full-frame} z="10" fit="cover"/>
+  </visual:Track>
+
+  <cap:Captions id="captions" timeline={program.timeline} within={hd.bounds}
+    style={recipes.course.caption} stack-order="100"/>
+
+  <audio:Track id="mix" timeline={program.timeline}>
+    <audio:Clip id="voice" source={voice-norm.media} during={program.math-win}/>
+  </audio:Track>
+
+  <film:Film id="main" canvas={hd.canvas} timeline={program.timeline} appearance={recipes.film.hd}>
+    <film:Track source={math.visual}/>
+    <film:Track source={captions.visual}/>
+    <film:Track source={mix.audio}/>
+  </film:Film>
+
+  <html:Video id="final" composition={main.composition} timeline={program.timeline}/>
+</svml>

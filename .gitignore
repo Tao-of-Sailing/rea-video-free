@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.hypit/
+.agent-memory/
+media/
+examples/hypit_minimal/assets/
+examples/hypit_minimal/hypit.runtime.json
+examples/hypit_minimal/output.mp4
+*.mp4
+*.wav
+*.m4a
+*.log
